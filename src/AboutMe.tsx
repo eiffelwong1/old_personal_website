@@ -35,7 +35,7 @@ function AboutMe() {
                 <Bio title='Student @ University of California, San Diego' year="June 2022"></Bio>
                 <Bio title='Software Engineer @ Translucence Biosystems' year="Feb-Sep2020"></Bio>
                 <Bio title='Junior Specialist (ML research) @ UCI Center for AI in Diagnostic Medicine' year="Mar2019-Feb2020"></Bio>
-                <Bio title='Student @ University of California, San Diego' year="Dec 2019"></Bio>
+                <Bio title='Student @ University of California, Irvine' year="Dec 2019"></Bio>
                 <Bio title='Instructor @ iD Tech' year="Jun-Aug 2019"></Bio>
   
 
