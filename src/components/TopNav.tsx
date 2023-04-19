@@ -1,22 +1,22 @@
-import './App.css'
+import './TopNav.css'
 
 function TopNav( ) {
   return (
     <nav className="top-nav">
-        <ul className="top-nav-list">
-            <li className = "nav-item">
+        <div className="top-nav-list">
+            <div className = "nav-item">
                 <i className="fa-solid fa-user"></i>
-                <a href="#" className="nav-link">About Me</a>
-            </li>
-            <li className = "nav-item">
+                <a href="/" className="nav-link">About Me</a>
+            </div>
+            <div className = "nav-item">
                 <i className="fa-solid fa-seedling"></i>
-                <a href="#" className="nav-link">Projects</a>
-            </li>
-            <li className = "nav-item">
+                <a href="projects" className="nav-link">Projects</a>
+            </div>
+            <div className = "nav-item">
                 <i className="fa-solid fa-otter"></i>
-                <a href="#" className="nav-link">Hobbies</a>
-            </li>
-        </ul>
+                <a href="hobbies" className="nav-link">Hobbies</a>
+            </div>
+        </div>
     </nav>
   )
 }

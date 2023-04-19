@@ -1,0 +1,16 @@
+.about_me_intro {
+    display: flex;
+    padding-top: 10%;
+    padding: 10%;
+    align-items: center
+}
+
+.punchline {
+    font-size: 1.7em;
+}
+
+.my_face {
+    border-radius: 50%;
+    display: flex;
+    padding: 5%
+}

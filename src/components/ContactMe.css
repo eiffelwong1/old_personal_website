@@ -1,0 +1,14 @@
+.main {
+    padding-top: 5%;
+}
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-list .contact {
+    flex: 1;
+}
