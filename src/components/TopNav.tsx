@@ -10,11 +10,11 @@ function TopNav( ) {
             </div>
             <div className = "nav-item">
                 <i className="fa-solid fa-seedling"></i>
-                <a href="projects" className="nav-link">Projects</a>
+                <a href="/#/projects" className="nav-link">Projects</a>
             </div>
             <div className = "nav-item">
                 <i className="fa-solid fa-otter"></i>
-                <a href="hobbies" className="nav-link">Hobbies</a>
+                <a href="/#/hobbies" className="nav-link">Hobbies</a>
             </div>
         </div>
     </nav>
