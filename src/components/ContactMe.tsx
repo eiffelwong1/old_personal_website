@@ -1,4 +1,3 @@
-import 'react-vertical-timeline-component/style.min.css';
 import './ContactMe.css'
 
 function ContactMe() {
