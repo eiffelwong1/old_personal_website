@@ -1,6 +1,6 @@
 import './AboutMe.css';
 import ContactMe from './components/ContactMe';
-import  Timeline, { ITimelineEvent} from './components/TimeLine';
+import  Timeline, { ITimelineEvent} from './components/Timeline';
 
 const experience:ITimelineEvent[] = [
     {

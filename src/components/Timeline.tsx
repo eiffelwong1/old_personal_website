@@ -1,5 +1,5 @@
 import React from 'react';
-import './TimeLine.css';
+import './Timeline.css';
 
 export interface ITimelineEvent {
   date: string;
