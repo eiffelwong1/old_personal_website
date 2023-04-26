@@ -15,7 +15,7 @@ interface ITimelineProps {
 const TimelineEvent: React.FC<ITimelineEvent> = ({ date, title, description, type }) => {
   return (
     <div className="timeline-event">
-      <div className={"timeline-date" + type}>
+      <div className={"timeline-date " + type}>
         {date}
       </div>
       <div className="timeline-content ">
@@ -30,7 +30,7 @@ const Timeline: React.FC<ITimelineProps> = ({ events }) => {
   return (
     <div className="timeline">
       {events.map((event, index) => (
-        <TimelineEvent key={index} date={event.date} title={event.title} description={event.description} />
+        <TimelineEvent key={index} date={event.date} title={event.title} description={event.description} type={event.type} />
       ))}
     </div>
   );
