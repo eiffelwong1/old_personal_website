@@ -1,14 +1,14 @@
 import React from 'react';
-import './Timeline.css';
+import './TimeLine.css';
 
-interface ITimelineEvent {
+export interface ITimelineEvent {
   date: string;
   title: string;
   description?: string;
   type?: "work" | "education" | "personal";
 }
 
-interface ITimelineProps {
+export interface ITimelineProps {
   events: ITimelineEvent[];
 }
 

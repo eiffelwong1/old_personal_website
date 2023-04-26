@@ -1,8 +1,8 @@
-import './AboutMe.css'
-import ContactMe from './components/ContactMe'
-import Timeline from './components/Timeline';
+import './AboutMe.css';
+import ContactMe from './components/ContactMe';
+import  Timeline, { ITimelineEvent} from './components/TimeLine';
 
-const experience = [
+const experience:ITimelineEvent[] = [
     {
         date: "Apr 2022 - Feb 2023",
         title: "Software Engineer, Eightfold AI",
