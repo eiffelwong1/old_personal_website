@@ -1,0 +1,61 @@
+:root {
+    --container-shadow: 0.5rem 0.5rem 2rem 0 rgba(black, 0.2);
+    --gutter: 30px;
+    --border-width: 4px;
+    --dot-diameter: 8px;
+}
+
+.bio {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+/* The line of the timeline */
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 17%;
+    bottom: 0px;
+    width: var(--border-width);
+    background: #ddd;
+}
+
+.timeline-date {
+    margin-bottom: .5em;
+    width: 15%;
+    padding-right: var(--gutter);
+    text-align: right;
+    position: relative;
+}
+
+/* The circles on the timeline */
+.timeline-date::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    border-radius: 50%;
+  }
+
+
+.timeline-content {
+    position: relative;
+    margin: 0 0 1%;
+    width: 66%;
+    right: -20%;
+    text-align:left;
+}
+
+.timeline-title {
+    text-align: left;
+}
