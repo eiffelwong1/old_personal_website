@@ -36,17 +36,17 @@ export function HobbieExperience(props:HobbieExperienceProps) {
             </Html>
 
             {/*telescope*/}
-            <primitive object={telescope.scene} scale={0.01} position={[-5, 0, 5]} rotation={[0,Math.PI/2,0]}/>
+            {/*<primitive object={telescope.scene} scale={0.01} position={[-5, 0, 5]} rotation={[0,Math.PI/2,0]}/>
             <Html center position={[-6, 4, 6]}>
                 <p className='scen_text'>Astronomy!! I take photos of galaxy, nebulas and stars too</p>
                 <img src={milkyway_pic_path} alt="Astronomy" width="100%" height="100%"></img>
-            </Html>
+    </Html>*/}
             
 
             {/*coding*/}
             <primitive object={macbook.scene} scale={5} position={[2, 0.1, 2]} rotation={[0,0,0]}/>
             <Html center position={[2, 4, 2]}>
-                <p className='scen_text'>Coding, well <br></br>, that's why I became a Software Engineer</p>
+                <p className='scen_text'>Coding. <br/> Well , that's why I became a Software Engineer</p>
             </Html>
 
             {/*frisbee*/}

@@ -62,7 +62,7 @@ function AboutMe() {
         <div className='main'>
             <div className='about_me_intro'>
                 <div className="intro">
-                    <h1>Hi There,</h1>
+                    <h1>Hi There!</h1>
                     <p className='punchline'>I'm Sing Wong, a software engineer with a strong background in ML, bringing over 2.5 years of experience to the table.</p>
                     <div className="description">
                         <p>Ready to code my way onto your team!</p>
