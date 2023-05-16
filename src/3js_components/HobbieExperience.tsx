@@ -17,7 +17,7 @@ interface HobbieExperienceProps {
 }
 
 export function HobbieExperience(props:HobbieExperienceProps) {
-    const telescope = useGLTF(telescope_path) as GLTFResult
+    {/*const telescope = useGLTF(telescope_path) as GLTFResult*/}
     const car = useGLTF(car_path) as GLTFResult
     const macbook = useGLTF(macbook_path) as GLTFResult
     const frisbee = useGLTF(frisbee_path) as GLTFResult
