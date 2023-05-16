@@ -1,0 +1,11 @@
+Model Information:
+* title:	Reflector telescope
+* source:	https://sketchfab.com/3d-models/reflector-telescope-62549e8c60d24ee5adb2a01a2c226a03
+* author:	GhInko (https://sketchfab.com/GhInko)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Reflector telescope" (https://sketchfab.com/3d-models/reflector-telescope-62549e8c60d24ee5adb2a01a2c226a03) by GhInko (https://sketchfab.com/GhInko) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

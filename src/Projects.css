@@ -1,0 +1,14 @@
+.loading{
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+    display: inline-block;
+    z-index:0;
+}
+
+
+.projects-main{
+    position:absolute;
+}
