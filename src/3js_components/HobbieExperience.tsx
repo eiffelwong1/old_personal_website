@@ -27,17 +27,19 @@ export function HobbieExperience(props:HobbieExperienceProps) {
             <ambientLight intensity={0.5} />
             <TreeLoader></TreeLoader>
 
-            {/*telescope*/}
-            <primitive object={telescope.scene} scale={0.01} position={[-5, 0, 5]} rotation={[0,Math.PI/2,0]}/>
-            <Html center position={[-6, 4, 6]}>
-                <p className='scen_text'>Astronomy!! I take photos of galaxy, nebulas and stars too</p>
-                <img src={milkyway_pic_path} alt="Astronomy" width="100%" height="100%"></img>
-            </Html>
+
 
             {/*auto cross*/}
             <primitive object={car.scene} scale={3} position={[-5, 0, -5]} rotation={[0,Math.PI/2,0]}/>
             <Html center position={[-5, 4, -5]}>
                 <p className='scen_text'>Cars and Auto Cross!! Dream car is Porsche 911</p>
+            </Html>
+
+            {/*telescope*/}
+            <primitive object={telescope.scene} scale={0.01} position={[-5, 0, 5]} rotation={[0,Math.PI/2,0]}/>
+            <Html center position={[-6, 4, 6]}>
+                <p className='scen_text'>Astronomy!! I take photos of galaxy, nebulas and stars too</p>
+                <img src={milkyway_pic_path} alt="Astronomy" width="100%" height="100%"></img>
             </Html>
             
 
