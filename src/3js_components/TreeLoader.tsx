@@ -1,11 +1,11 @@
 import { DoubleSide } from "three";
 
 import { OrbitControls, useGLTF } from '@react-three/drei';
-import { GLTFResult } from '../../resourses/lowpoly_tree_pack/Scene';
+import { GLTFResult } from '../../public/lowpoly_tree_pack/Scene';
 import { Route } from 'react-router';
 
 
-const resourses_path = '../../resourses/lowpoly_tree_pack'
+const resourses_path = '../../public/lowpoly_tree_pack'
 
 
 
