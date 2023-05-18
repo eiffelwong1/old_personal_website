@@ -6,7 +6,7 @@ import { TreeLoader } from './TreeLoader'
 
 import "./HobbieExperience.css"
 
-const resourses_path = '../../public/'
+const resourses_path = './'
 
 const telescope_path = resourses_path + 'reflector_telescope.glb'
 const car_path = resourses_path + 'muscle_car.glb'

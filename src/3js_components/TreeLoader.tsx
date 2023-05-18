@@ -4,10 +4,7 @@ import { OrbitControls, useGLTF } from '@react-three/drei';
 import { GLTFResult } from '../../public/lowpoly_tree_pack/Scene';
 import { Route } from 'react-router';
 
-
-const resourses_path = '../../public/lowpoly_tree_pack'
-
-
+const resourses_path = './lowpoly_tree_pack'
 
 interface TreeProps {
     geometry: any,
