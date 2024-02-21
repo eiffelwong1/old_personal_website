@@ -2,6 +2,6 @@
 
 my old personal website build on vite, had some fun with 3js and put quite some personal flair in it.
 
-but I want to evolve my personal website into a blog too and I learned more about react and now my new personal website would be better
+but I want to evolve my personal website into a blog too and I learned more about react and now my new personal website would be better, and believe that astro would serve better for that purpose.
 
 used as personal website Feb 2023 to Feb 2024, fairwell :D
